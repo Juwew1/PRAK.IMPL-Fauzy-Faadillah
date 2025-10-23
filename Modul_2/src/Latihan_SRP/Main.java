@@ -8,6 +8,6 @@ public class Main {
         OrderHistory history = new OrderHistory();
         history.getDailyHistory();
         OrderViewer viewer = new OrderViewer();
-        viewer.PrintOrder(order);
+        viewer.printOrder(order);
     }
 }
