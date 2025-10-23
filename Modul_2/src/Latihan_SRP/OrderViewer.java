@@ -1,4 +1,9 @@
 package Latihan_SRP;
 
-public class OrderViewer {
+class OrderViewer {
+    void printOrder(Order order) {
+    }
+    void showOrder(Order order) {
+    }
 }
+
