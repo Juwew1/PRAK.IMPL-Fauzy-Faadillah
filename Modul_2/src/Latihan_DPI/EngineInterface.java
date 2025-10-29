@@ -1,5 +1,5 @@
 package Latihan_DPI;
 
     interface EngineInterface {
-    void
+    void start();
 }
