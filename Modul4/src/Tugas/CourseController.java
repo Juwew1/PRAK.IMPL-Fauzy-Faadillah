@@ -1,10 +1,9 @@
 package Tugas;
 
 public class CourseController {
-    private Model model;
-    private View view;
-
-    public CourseController(Model model, View view) {
+    private Course model;
+    private CourseView view;
+    public CourseController(Course model, CourseView view) {
         this.model = model;
         this.view = view;
     }
@@ -34,6 +33,7 @@ public class CourseController {
     }
 
     public void updateView() {
+
         view.printCourseDetails(model.getName(), model.getId(), model.getCategory());
     }
 }
