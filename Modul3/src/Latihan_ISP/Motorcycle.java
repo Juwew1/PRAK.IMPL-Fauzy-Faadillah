@@ -1,8 +1,6 @@
 package Latihan_ISP;
 
     class Motorcycle implements VehicleInterface{
-
-        // can be implemented
         @Override
         public void drive() {
 
@@ -15,12 +13,6 @@ package Latihan_ISP;
 
         @Override
         public void refuel() {
-
-        }
-
-        // can not be implemented
-        @Override
-        public void openDoors() {
 
         }
     }
