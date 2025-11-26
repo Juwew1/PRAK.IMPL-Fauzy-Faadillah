@@ -1,7 +1,4 @@
-package LatihanCleanCode;
-
-public class JournalComments {
-    /*
+/*
      * Changes (from 11-Oct-2001)
      *
      * 11-Oct-2001 Re-organised the class and moved it to new
@@ -17,5 +14,4 @@ public class JournalComments {
      * 29-May-2002 Fixed bug in Spreadsheet Date class (DG);
      * Moved the month constants into a separate
      * interface (MonthConstants) (DG);
-     */
-}
+*/
