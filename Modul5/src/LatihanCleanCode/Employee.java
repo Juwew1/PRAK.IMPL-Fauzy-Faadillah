@@ -1,6 +1,5 @@
 package LatihanCleanCode;
 
-// Nama kelas disamakan persis dengan Employee dari modul (walau bukan EmployeeType-nya)
 public class Employee {
     private int monthlySalary = 5000;
     private int commission = 1000;
@@ -11,7 +10,6 @@ public class Employee {
         this.type = type;
     }
 
-    // Getter yang dibutuhkan oleh subclass (Nama variabel disesuaikan dengan modul: _monthlySalary, dll.)
     public int getMonthlySalary() { return monthlySalary; }
     public int getCommission() { return commission; }
     public int getBonus() { return bonus; }

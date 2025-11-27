@@ -14,18 +14,14 @@ public class DrawingEngine {
     public void drawShape() {
         System.out.println("--- Proses Drawing dengan Clean Formatting ---");
 
-        // Asli: fill(80,204,55); rect(100,0,200,400);
         System.out.println("Menggambar Rectangle: (100, 0) dengan Fill Color (80, 204, 55).");
 
-        // Perbaikan Formatting Loop
         for (int i = numCircles; i > 1; i--) {
             int radius = i * 7;
 
             if (mouseX > 100 && mouseX < 300) {
-                // Kondisi TRUE
                 System.out.print("[Lingkaran " + i + "] Fill Color (255, 255, 255) | ");
             } else {
-                // Kondisi FALSE
                 System.out.print("[Lingkaran " + i + "] Fill Color (80, 204, 55) | ");
             }
 

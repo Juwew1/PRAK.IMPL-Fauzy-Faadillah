@@ -17,7 +17,6 @@ public class GameRefactored {
         theList.add(new int[]{FLAGGED, 3, 3});
     }
 
-    // Method yang di-refactor: getFlaggedCells
     public List<int[]> getFlaggedCells() {
 
         List<int[]> flaggedCells = new ArrayList<int[]>();
