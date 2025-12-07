@@ -1,5 +1,5 @@
 <?php global $conn;
-include 'db_config.php'; ?>
+include '../tugas/db_config.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
