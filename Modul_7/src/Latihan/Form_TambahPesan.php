@@ -1,5 +1,4 @@
-<?php include 'db_config.php'; ?>
-<!DOCTYPE html>
+<?php include __DIR__ . '/../tugas/db_config.php'; ?><!DOCTYPE html>
 <html>
 <head>
     <title>Tambah Pesan</title>

@@ -1,6 +1,6 @@
 <?php
 global $conn;
-include '../Latihan/db_config.php';
+include 'db_config.php';
 
 $idMember = $_SESSION['id'];
 $idMember = $conn->real_escape_string($idMember);
