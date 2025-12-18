@@ -1,7 +1,9 @@
 package Latihan;
 
 public class ConditionalCheck {
+
     public void checkAccess(int score, int income, boolean authorized) {
+
         if ((score <= 700) && ((income < 40000) || (income > 100000) || !authorized || (score <= 500)) && (income <= 100000)) {
             reject();
         } else {
@@ -16,5 +18,9 @@ public class ConditionalCheck {
     private void reject() {
         System.out.println("Access Rejected");
     }
-}
 
+    public static void main(String[] args) {
+        ConditionalCheck check = new ConditionalCheck();
+        check.checkAccess(600, 20000, true);
+    }
+}
