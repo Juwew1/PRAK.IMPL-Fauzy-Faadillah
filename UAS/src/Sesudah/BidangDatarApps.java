@@ -9,7 +9,7 @@ public class BidangDatarApps {
         System.out.println("1. Lingkaran");
         System.out.println("2. Persegi");
         System.out.println("3. Persegi Panjang");
-        System.out.println("4. Segitiga Siku-Siku");
+        System.out.println("4. Segitiga Siku");
         System.out.print("Input pilihan: ");
         int pilihanDatar = scanner.nextInt();
 
@@ -32,7 +32,7 @@ public class BidangDatarApps {
             double a = scanner.nextDouble();
             System.out.print("Masukan Tinggi: ");
             double t = scanner.nextDouble();
-            shape = new SegitigaSikuSiku(a, t);
+            shape = new SegitigaSiku(a, t);
         }
 
         if (shape != null) {

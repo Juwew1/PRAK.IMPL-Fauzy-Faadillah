@@ -1,8 +1,8 @@
 package Sesudah;
 
-public class SegitigaSikuSiku implements Shape {
+public class SegitigaSiku implements Shape {
     private double alas, tinggi, miring;
-    public SegitigaSikuSiku(double a, double t) {
+    public SegitigaSiku(double a, double t) {
         this.alas = a;
         this.tinggi = t;
         this.miring = Math.sqrt((a * a) + (t * t));
