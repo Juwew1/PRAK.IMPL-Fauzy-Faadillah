@@ -1,3 +1,5 @@
+package Sebelum;
+
 public class BidangDatar {
     private double panjang, lebar, sisi, jariJari, alas, tinggi, miring;
 
